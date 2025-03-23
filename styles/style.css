@@ -218,7 +218,16 @@ h3 {
 /* Track for Sliding Images */
 .carousel-track {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+    will-change: transform;
+}
+
+.carousel img {
+    transition: transform 0.3s ease;
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
 }
 
 /* Carousel Images */
