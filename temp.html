@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Buddies - Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Beauty Buddies</h1>
+        <p>Korean Skincare Reviews & BnB Adventures</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Beauty Buddies!</h2>
+        <p>Your ultimate guide to glowing skin and cozy stays.</p>
+
+          <!-- Featured Section -->
+    <section class="features">
+        <h3>Why Follow Us?</h3>
+        <ul>
+            <li>✨ Unbiased Skincare Product Reviews</li>
+            <li>🏡 Exclusive BnB Adventures</li>
+            <li>💡 Tips for Flawless Skin and Relaxation</li>
+            <li>📹 Vlogs to Keep You Entertained and Informed</li>
+        </ul>
+    </section>
+
+
+      <!-- Carousel Slider -->
+      <div class="carousel">
+        <div class="carousel-track">
+            <img src="images/image1.jpeg" alt="Skincare Routine" width="200px">
+            <img src="images/image2.jpeg" alt="Beauty Products" width="200px">
+            <img src="images/image3.jpeg" alt="Skincare Routine" width="200px">
+            <img src="images/image4.jpeg" alt="Nature" width="200px">
+            <img src="images/image5.jpeg" alt="Centella" width="200px">
+            <img src="images/image6.jpeg" alt="Serum for dry skin" width="200px">
+            <img src="images/image7.jpeg" alt="Oil drops" width="200px">
+        </div>
+
+      <!-- Navigation Arrows -->
+        <button class="arrow left" onclick="moveCarousel(-1)">&#10094;</button>
+        <button class="arrow right" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
+
+     <!-- Latest Blog/Vlog Previews -->
+     <section class="blog-previews">
+        <h3>Latest Vlogs & Articles</h3>
+        <div class="preview">
+            <h4>🌿 Top 5 Korean Serums for Glowing Skin</h4>
+            <p>Discover the serums that are taking over the beauty world. Our honest reviews will help you choose the perfect fit for your routine!</p>
+        </div>
+        <div class="preview">
+            <h4>🏡 Cozy BnBs You Need to Visit</h4>
+            <p>Join us as we explore the most relaxing and Instagrammable BnBs around! Perfect for that weekend getaway.</p>
+        </div>
+    </section>
+
+       <!-- Video Section (Centered) -->
+       <div class="video-container">
+        <h3>Watch Our Latest Vlog!</h3>
+        <video controls width="600px">
+            <source src="images/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+         <!-- Call to Action -->
+    <section class="cta">
+        <p>💌 Stay updated with the latest beauty trends and travel stories. Subscribe now!</p>
+        <button onclick="subscribe()">Subscribe Now</button>
+    </section>
+</main>
+    
+    <footer>
+        <p>&copy; 2025 Beauty Buddies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
