@@ -18,7 +18,8 @@ function moveCarousel(direction) {
 
     // Move the carousel track
     track.style.transform = `translateX(${-imageWidth * currentIndex}px)`;
-}
+
 setInterval(() => {
     moveCarousel(1);
-}, 3000);  // Slides every 3 seconds
+}, 3000);  // Slides every 5 seconds
+}
